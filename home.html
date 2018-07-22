@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+  <link rel="shortcut icon" type="image/png" href="https://png.icons8.com/color/50/000000/optin-monster.png"/>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.18/vue.min.js"></script>
 </head>
 <body>
@@ -24,6 +25,9 @@
         <div class="card">
           <div class="card-header">You</div>
           <div class="card-body">
+              <div class="image">
+                    <img src="https://png.icons8.com/color/96/000000/hulk.png">
+              </div>
               <div class="progress">
                   <div class="progress-bar bg-success" role="progressbar" 
                        :style="{width: playerHealth + '%'}" 
@@ -36,6 +40,9 @@
         <div class="card">
           <div class="card-header">Monster</div>
           <div class="card-body">
+            <div class="image">
+                    <img src="https://png.icons8.com/color/96/000000/pennywise.png">
+            </div>
               <div class="progress">
                   <div class="progress-bar bg-success" role="progressbar" 
                        :style="{width: monsterHealth + '%'}" 
