@@ -1,5 +1,5 @@
 #MONSTRO-SLASH
 
-Play The Game in [heroku]
+Play The Game in [here]
 
-[heroku]: <https://monstro-slash.herokuapp.com//>
+[here]: <https://monstro-slash.herokuapp.com//>
